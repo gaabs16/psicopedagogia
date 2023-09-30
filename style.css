@@ -523,7 +523,7 @@ footer{
 }
 
 /* CELULAR */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 600px){
   header{
     height: 800px;
   }
