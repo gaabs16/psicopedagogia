@@ -2,6 +2,7 @@
     padding: 0;
     border: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -295,9 +296,9 @@ header{
   }
 
   .descricao1{
-      margin-top: 50px;
+      
       font-size: clamp(0.9rem, 2vw, 2rem);
-      margin-left: 20px;
+      
       text-align: justify;
     }
 
@@ -307,8 +308,8 @@ header{
   }
 
   .quadrado1{
-      width: 130vh;
-      height: 50vh;
+      width: 80%;
+      height: auto;
       display: flex;
       flex-direction: row;
       margin: auto;
@@ -586,10 +587,7 @@ footer{
     height: 800px;
   }
 
-  .imagem-time img{
-    margin-left: -300px;
-  }
-
+  
   .quadrado{
     width: 50vh;
     height: 35vh;
@@ -601,8 +599,13 @@ footer{
   }
 
   #time{
-    width: 100%;
-    height: 550px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   .crianca img{
